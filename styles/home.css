@@ -1,0 +1,20 @@
+.bhavya {
+  font-size: 50px;
+  color: beige;
+  font-weight: bolder;
+}
+.hello {
+  font-size: 30px;
+  color: beige;
+  font-weight: bold;
+}
+
+.image {
+  width: 300px;
+  margin: 5px 30px;
+  box-shadow: 5px 5px 50px wheat;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}

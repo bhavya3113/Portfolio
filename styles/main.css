@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   font-family: "Source Code Pro", monospace;
@@ -10,4 +12,18 @@ body {
   background-color: black;
   width: 100%;
   font-weight: bolder;
+  position: fixed;
+  align-items: center;
+}
+#home {
+  background-image: url("../images/home-background.jpg");
+  width: 100%;
+  height: 620px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

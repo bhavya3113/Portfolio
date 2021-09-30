@@ -1,22 +1,21 @@
 .logo {
   color: whitesmoke;
   font-size: 60px;
-  margin: 4px 50px;
-  padding: 2px;
+  margin: 2px 50px;
 }
 .nav-list-ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  float: right;
 }
 .nav-list-li {
   padding: 5px 22px;
   color: aliceblue;
   font-size: 25px;
   text-decoration: none;
+  cursor: pointer;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
 }
 .nav-list-li:hover {
   font: bold;
