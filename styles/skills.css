@@ -25,8 +25,11 @@
   border: 2px solid;
   padding: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(180deg, aqua, rgb(137, 218, 137));
+  background-image: linear-gradient(180deg, rgb(139, 233, 135), white);
   margin: 30px 10px;
+}
+.img-container > a > img {
+  padding-bottom: 50px;
 }
 .skills-section {
   width: 100%;

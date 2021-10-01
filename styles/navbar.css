@@ -20,6 +20,39 @@
 }
 .nav-list-li:hover {
   font: bold;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   font-size: 30px;
+}
+@media (max-width: 992px) {
+  .navbar {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .logo {
+    display: none;
+  }
+  .navbar {
+    height: 150px;
+    position: relative;
+  }
+  .nav-list-ul {
+    flex-direction: column;
+  }
+
+  .nav-list-li {
+    padding: 2px;
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+  }
+  .nav-list-li:hover {
+    font: bold;
+    background-color: lightgrey;
+    color: black;
+    font-size: 30px;
+  }
 }

@@ -14,3 +14,15 @@
   padding: 50px 0px 30px;
   color: rgb(155, 229, 229);
 }
+
+@media only screen and (max-width: 900px) {
+  #about {
+    height: auto;
+    width: 100%;
+  }
+  .description {
+    margin: 0px;
+    font-size: 20px;
+    text-align: justify;
+  }
+}

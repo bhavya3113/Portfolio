@@ -1,14 +1,13 @@
 .bhavya {
   font-size: 60px;
-  color: rgb(187 110 83);
+  color: white;
   font-weight: bolder;
 }
 .hello {
   font-size: 40px;
-  color: rgb(187 110 83);
+  color: white;
   font-weight: bold;
 }
-
 .image {
   width: 300px;
   margin: 5px 30px;
@@ -17,4 +16,33 @@
 .text {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 768px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    width: 200px;
+    margin: 5px 30px;
+    box-shadow: 5px 5px 50px wheat;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #home {
+    width: 100%;
+  }
+  .image {
+    display: none;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
