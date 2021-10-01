@@ -2,6 +2,7 @@
   color: whitesmoke;
   font-size: 60px;
   margin: 2px 50px;
+  font-family: cursive;
 }
 .nav-list-ul {
   display: flex;

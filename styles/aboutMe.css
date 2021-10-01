@@ -6,3 +6,11 @@
   padding: 0px 30px;
   color: aliceblue;
 }
+.about-heading {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  font-weight: bolder;
+  padding: 50px 0px 30px;
+  color: rgb(155, 229, 229);
+}
