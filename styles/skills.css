@@ -32,6 +32,13 @@
 .img-container > a > img {
   padding-bottom: 50px;
 }
+.img-container > img:hover {
+  transform: scale(1.2);
+}
+
+.img-container > a > img:hover {
+  transform: scale(0.8);
+}
 .skills-section {
   width: 100%;
   display: flex;
