@@ -12,6 +12,16 @@
   width: 300px;
   margin: 5px 30px;
   box-shadow: 5px 5px 50px wheat;
+  animation-name: zoomin;
+  animation-duration: 4s;
+}
+@keyframes zoomin {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 300px;
+  }
 }
 .text {
   display: flex;
